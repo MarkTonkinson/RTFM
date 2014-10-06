@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html ng-app="rtfmApp">
+
+<head>
+	<title>Real Time Forum</title>
+</head>
+
+<body>
+	
+
+<!-- Add your site or application content here -->
+    <div class="container" ng-view></div>
+
+<!--Environment vars attached to window.env has to come before others-->
+ <script src="js/environment.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+
+<script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.js"></script>
+
+<script src="js/rtfmApp.js"></script>
+<script src="js/environmentService.js"></script>
+<script src="login/loginCtrl.js"></script>
+<script src="threads/threadsCtrl.js"></script>
+<script src="threads/threadsService.js"></script>
+<script src="thread/threadCtrl.js"></script>
+
+
+
+</body>
+</html>
